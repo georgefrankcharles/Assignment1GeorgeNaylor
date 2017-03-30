@@ -1,0 +1,28 @@
+
+/*
+
+Color Schemes:
+
+BG Color: #ECF0F1
+Red: #E74C3C
+Dark Blue: #2C3E50
+Light Blue: #3498DB
+Neutral Blue: #2980B9
+
+*/
+
+:root {
+  --bg-color: #ECF0F1;
+  --red: #E74C3C;
+  --dark-blue: #2C3E50;
+  --light-blue: #3498DB;
+  --mid-blue: #2980B9;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.title {
+  background-color: red;
+}
