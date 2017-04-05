@@ -11,18 +11,66 @@ Neutral Blue: #2980B9
 
 */
 
+@import url('https://fonts.googleapis.com/css?family=Bungee|Raleway:300,400');
+
 :root {
-  --bg-color: #ECF0F1;
+  --white: #ECF0F1;
   --red: #E74C3C;
   --dark-blue: #2C3E50;
   --light-blue: #3498DB;
   --mid-blue: #2980B9;
 }
 
+
+
+
 body {
-  background-color: var(--bg-color);
+  background-color: var(--white);
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
 }
 
-.title {
-  background-color: red;
+.header {
+  background-color: var(--red);
+  color: var(--white);
+
+  border-bottom: 15px solid var(--mid-blue);
+
+  height: 125px;
+  padding-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 4rem;
+
+}
+
+
+
+.nav {
+  background-color: var(--light-blue);
+  color: var(--dark-blue);
+
+  text-align: center;
+  font-size: 2rem;
+
+  padding: 10px 0px;
+
+}
+
+
+
+.nav a {
+  text-decoration: none;
+  color: var(--dark-blue);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+
+}
+
+.quotemarks {
+  font-size: 10rem;
+
 }
