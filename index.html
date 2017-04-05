@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
 
+  <script>
+
+
+
+  </script>
+
   <body>
 
       <div class="header">
@@ -23,11 +29,67 @@
         <a href="#">contact</a>
       </div>
 
-      <div class="intro">
-        <div class="quotemarks">
-          “
-        <div>
 
+
+      <div class="intro">
+        <div class="introTitle">
+          hello dude
+        </div>
+          My name is George and I like creating things. <br />
+          Come and look at my cool stuff I made and <br />
+          find out more about me.
+        </div>
+
+
+
+
+      <div class="sectionHeader">
+        about
+      </div>
+      <div class="aboutBackground">
+
+          <div class="aboutContainer">
+
+
+              <div class="profilepic">
+                <img id="profile" src="images/profile-idle.gif">
+              </div>
+
+              <div class="aboutContent">
+                <h1>G_FC_NAYLOR_1998</h1>
+
+
+                <h2>Level 18 - Dude</h2>
+                <br/>
+
+                <a>Likes:</a> skateboards, video-games, jazz, Vans, milk and design.
+                <br /> <br />
+                <a>Dislikes:</a> reading books, Sketchers and android emojis.
+                <br /> <br />
+                <a>Currently:</a> studying a Bachelor of Design at Massey University in Wellington New Zealand
+
+              </div>
+
+          </div>
+
+      </div>
+
+      <div class="sectionHeader">
+        work
+      </div>
+
+
+
+
+      <script>
+
+        document.getElementById('profile').addEventListener('mouseover', function() {
+          this.src = 'images/profile-moving.gif';
+        });
+        document.getElementById('profile').addEventListener('mouseout', function() {
+          this.src = 'images/profile-idle.gif';
+        });
+      </script>
   </body>
 
 </html>
