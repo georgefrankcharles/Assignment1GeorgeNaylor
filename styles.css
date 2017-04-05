@@ -14,7 +14,10 @@ Neutral Blue: #2980B9
 @import url('https://fonts.googleapis.com/css?family=Bungee|Raleway:300,400');
 
 body:after {
-  content: url(images/profile-moving.gif);
+  content: url(images/profile-moving.gif),
+  url(images/work/skorca2.jpg),url(images/work/skorca2.jpg),url(images/work/skorca2.jpg),
+  url(images/work/skorca2.jpg),url(images/work/skorca2.jpg),url(images/work/skorca2.jpg),
+  url(images/work/skorca2.jpg),url(images/work/skorca2.jpg),url(images/work/skorca2.jpg),
   display: none;
 }
 
@@ -26,11 +29,11 @@ body:after {
   --mid-blue: #2980B9;
 }
 
-
+/*
 div {
   border: 1px solid lime;
 }
-
+*/
 
 
 body {
@@ -157,4 +160,22 @@ body {
 }
 .profilepic img {
   width: 350px;
+}
+
+.workbg {
+
+  color: var(--white);
+  padding: 15px 0px;
+  font-weight: 300;
+  overflow: hidden;
+}
+
+.workContainer {
+  max-width: 960px;
+  margin: auto;
+
+}
+
+.workContainer img {
+  width: 33%;
 }
