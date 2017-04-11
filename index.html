@@ -14,20 +14,22 @@
   </script>
 
   <body>
-
-      <div class="header">
+    <div class="fullHeader">
+      <div id="header">
         george frank charles naylor
       </div>
 
       <div class="nav">
-        <a href="#">home</a>
+        <a href="#header">home</a>
           |
-        <a href="#">about</a>
+        <a href="#about">about</a>
           |
-        <a href="#">work</a>
+        <a href="#work">work</a>
           |
-        <a href="#">contact</a>
+        <a href="#contact">contact</a>
       </div>
+
+    </div>
 
 
 
@@ -43,7 +45,7 @@
 
 
 
-      <div class="sectionHeader">
+      <div class="sectionHeader" id="about">
         about
       </div>
       <div class="aboutBackground">
@@ -74,7 +76,7 @@
 
       </div>
 
-      <div class="sectionHeader">
+      <div class="sectionHeader" id="work">
         work
       </div>
       <div class="workbg">
@@ -91,7 +93,31 @@
         </div>
       </div>
 
+      <div class="sectionHeader" id="contact">
+        contact
+      </div>
 
+      <div class="contactForm">
+        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+        	<div class="row">
+        		<label for="name">Your name:</label><br />
+        		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+        	</div>
+        	<div class="row">
+        		<label for="email">Your email:</label><br />
+        		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+        	</div>
+        	<div class="row">
+        		<label for="message">Your message:</label><br />
+        		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+        	</div>
+        	<input id="submit_button" type="submit" value="Send email" />
+        </form>
+      </div>
+
+      <div id="footer">
+        Copyright George Naylor 2017
+      </div>
 
 
       <script>
@@ -179,6 +205,7 @@
 
 
       </script>
+
   </body>
 
 </html>

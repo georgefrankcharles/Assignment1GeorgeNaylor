@@ -15,9 +15,9 @@ Neutral Blue: #2980B9
 
 body:after {
   content: url(images/profile-moving.gif),
-  url(images/work/skorca2.jpg),url(images/work/skorca2.jpg),url(images/work/skorca2.jpg),
-  url(images/work/skorca2.jpg),url(images/work/skorca2.jpg),url(images/work/skorca2.jpg),
-  url(images/work/skorca2.jpg),url(images/work/skorca2.jpg),url(images/work/skorca2.jpg),
+  url(images/work/skorca2.jpg),url(images/work/1glitch2.jpg),url(images/work/2glitch2.jpg),
+  url(images/work/crane2.gif),url(images/work/culture2.gif),url(images/work/doodle2.gif),
+  url(images/work/flipcity2.jpg),url(images/work/nimbus2.jpg),url(images/work/skorcascrim2.jpg),
   display: none;
 }
 
@@ -36,13 +36,15 @@ div {
 */
 
 
+
+
 body {
   background-color: var(--white);
   margin: 0;
   font-family: 'Raleway', sans-serif;
 }
 
-.header {
+#header {
   background-color: var(--red);
   color: var(--white);
 
@@ -178,4 +180,28 @@ body {
 
 .workContainer img {
   width: 33%;
+}
+
+form {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+
+.contactForm {
+  background-color: var(--light-blue);
+}
+
+#footer {
+  background-color: var(--red);
+  color: var(--white);
+  text-align: center;
+  font-size: 0.9rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
 }
